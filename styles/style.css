@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  
+}
+ 
+a {
+  text-decoration: none;
+}
+
+
+.header {
+  position: absolute;
+  background-color: #1F98F0;
+  width: 100%;
+  min-height: 1000px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.hungry {
+  margin-right: 80px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 37px;
+  color: #FFFFFF;
+
+}
+
+.header__hungry {
+   
+}
+
+.header__text {
+  margin-left: 57px;
+  position: relative;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.7;
+  order: 1;
+  margin: 0px 40px;
+  cursor: pointer;
+}
+
+.header__text::after { 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background-color: #FFFFFf;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.header__text:hover::after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+.button__downloadNow {
+  margin-left: 143px;
+  margin-top: -16px;
+  position: absolute;
+  width: 184px;
+  height: 52px;
+  top: 35px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.downloadNow {
+  position: static;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #03101A;
+  flex: none;
+  order: 0;
+  display: inline-block;
+}
+
+
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__left {
+  display: block;
+}
+
+.wrapper__right {
+  display: block;
+}
+.favourite__common {
+  margin: 242px 0 30px 0;
+  position: relative;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.favourite__text {
+  margin: 0 0 30px 0;
+  position: relative;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.mobile__google {
+  margin-right: -50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 205px;
+  height: 60px;
+  background-image: url(/img/image\ 11.png);
+}
+
+.mobile__appStore {
+  margin-left: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 194px;
+  height: 60px;
+  background-image: url(/img/image\ 12.png);
+}
+
+.cart__two {
+  background-image: url(/img/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 304px;
+  height: 654px;
+  border-radius: 34px;
+  left: 879.91px;
+top: 182.91px;
+}
+
+.cart__one {
+  left: 1067px;
+top: 246px;
+  background-image: url(/img/Rectangle\ 4.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 245px;
+  height: 529px;
+  border-radius: 34px;
+}
