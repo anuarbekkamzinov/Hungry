@@ -202,10 +202,7 @@ li {
  
 }
 .Logoipsumm {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  position: relative;
+  text-align: center;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -215,17 +212,227 @@ li {
 
 }
 
-.dog {
-  background-image: url(/img/icon/logoipsum`/Vector1.png);
-  background-repeat: no-repeat;
-  width: 55px;
-  height: 56px;
-  position: relative;
-  margin-top: -15px;
+.dog__img.dog__two {
+  margin-top: -10px;
+  margin-left: 226px;
 }
 
-.dog__left{
-  position: absolute;
-  background-image: url(/img/icon/logoipsum`/Vector2.png);
-  margin-left: 350px;
+.main___section {
+  display: inline-flex;
 }
+
+.main__rectangle {
+  margin-top: 127px;
+}
+
+.main__featurea {
+  margin: 207px 0 0px 209px;
+}
+
+.section {
+  margin-bottom: 51px;
+}
+
+.section__top {
+  margin-top: 85px;
+}
+
+.main__img {
+  position: relative;
+  width: 303px;
+  height: 653px;
+}
+
+.features {
+  
+  font-size: 38px;
+  left: 758px;
+  top: 1351px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  color: #03101A;
+}
+
+.img__section {
+  
+}
+
+.img__poloska {
+  margin: 0px -50px 8px 0px;
+}
+
+.img__circle {
+  
+}
+
+.img__minus {
+  margin: 0px 0px 40px -60px;
+}
+
+.img__vecror {
+  margin: 0px 0px 44px -58px;
+}
+
+.img__android {
+  margin: 0px 0px 43px -53px;
+}
+
+.section__quick {
+  margin: -125px 0px 0px 127px
+}
+
+.quick {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #03101A;
+}
+
+.quick__text {
+  display: block;
+  width: 446px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #03101A;
+}
+
+.main__avatar {
+  max-width: 260px;
+  display: block;
+  text-align: center;
+}
+.avatar {
+  
+}
+
+.main__testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonials {
+  margin: 119px 0 80px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  color: #03101A;
+}
+
+.jhonSmith {
+  max-width: 260px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #03101A;
+}
+
+.jhonSmith__text {
+  margin-bottom: 80px;
+  max-width: 260px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #03101A;
+  opacity: 0.7;
+}
+
+.wrapper_container {
+  background-color: #1F98F0;
+  width: 100%;
+}
+
+.section__available {
+  display: flex;
+  justify-content: space-between;
+}
+
+.available {
+  margin: 107px 0 112px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+
+.availableDownload {
+  margin: 107px 0 97px 0;
+  width: 223px;
+  height: 62px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1F98F0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  
+}
+ 
+.update{
+  margin: 120px 0 60px 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #03101A;
+ }
+
+ .swiper__content {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .img__healthy {
+   margin-bottom: 5px;
+   width: 360px;
+   height: 233px;
+ }
+
+ .healthy {
+   margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #03101A;
+ }
+
+ .healthy__text {
+   margin-bottom: 30px;
+   width: 327px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6D7073;
+  opacity: 0.7;
+ }
+
+ .read {
+   margin-bottom: 128px;
+   list-style-type: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1F98F0;
+ }
+ 
