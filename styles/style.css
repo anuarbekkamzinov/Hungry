@@ -22,7 +22,7 @@ li {
 
 
 .header {
-  
+  height: 100%;
   background-color: #1F98F0;
   width: 100%;
   min-height: 1000px;
@@ -192,30 +192,25 @@ li {
   height: 25px;
 }
 
-.burger {
-  background-image: url(/img/icon/logoipsum/Vector.png);
-  background-repeat: no-repeat;
-  width: 55px;
-  height: 56px;
-  position: absolute;
-  margin-top: -15px;
- 
+.main__locasion {
+display: flex;
+justify-content: space-between;
 }
+
+.burger {
+  
+}
+
 .Logoipsumm {
-  text-align: center;
+  
+  margin: -10px 0px 15px 15px;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  margin-left: 60px;
   color:  #394149;
-  
+  }
 
-}
 
-.dog__img.dog__two {
-  margin-top: -10px;
-  margin-left: 226px;
-}
 
 .main___section {
   display: inline-flex;
@@ -349,6 +344,7 @@ li {
 }
 
 .wrapper_container {
+  
   background-color: #1F98F0;
   width: 100%;
 }
@@ -382,6 +378,11 @@ li {
   order: 0;
   flex-grow: 0;
   
+}
+
+.swiper{
+  flex: 0 0 auto;
+  margin-bottom: 128px;
 }
  
 .update{
@@ -418,21 +419,94 @@ li {
  .healthy__text {
    margin-bottom: 30px;
    width: 327px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  color: #6D7073;
-  opacity: 0.7;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 150%;
+   color: #6D7073;
+   opacity: 0.7;
  }
 
  .read {
-   margin-bottom: 128px;
+   
    list-style-type: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 150%;
-  color: #1F98F0;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 150%;
+   color: #1F98F0;
  }
  
+ .footer {
+   display: flex;
+   flex: 0 0 auto;
+   max-width: 100%;
+   background-color: #03101A;
+ }
+
+ .footer__content {
+   display: flex;
+   justify-content: space-between;
+  }
+
+  .maina {
+    margin: 100px 0 35px 0;
+  }
+
+ .footer__hungry {
+    
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30.95px;
+   line-height: 37px;
+   color: #FFFFFF;
+ }
+
+ .hungry__text {
+    max-width: 327px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+
+ .footer__h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
+  
+ }
+
+ .support__text {
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.7;
+ }
+
+ .inputEmail {
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #03101A;
+ }
+
+ .subscribe {
+    margin-left: -3px;
+    padding: 10px 35px;
+    background: #1F98F0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+ }
