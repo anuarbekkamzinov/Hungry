@@ -268,32 +268,25 @@ justify-content: space-between;
   color: #03101A;
 }
 
-.img__section {
-  
+.list {
+  padding: 0;
 }
 
-.img__poloska {
-  margin: 0px -50px 8px 0px;
+.list__item {
+  display: flex;
+  justify-content: start;
+  padding: 0;
 }
 
-.img__circle {
-  
+.list__img {
+  display: flex;
+  align-items: center;
 }
 
-.img__minus {
-  margin: 0px 0px 40px -60px;
-}
-
-.img__vecror {
-  margin: 0px 0px 44px -58px;
-}
-
-.img__android {
-  margin: 0px 0px 43px -53px;
-}
-
-.section__quick {
-  margin: -125px 0px 0px 127px
+.img__quick {
+  margin: 10px 30px 0 0;
+  width: 92px;
+  right: 92px;
 }
 
 .quick {
