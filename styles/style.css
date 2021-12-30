@@ -29,6 +29,7 @@ li {
 }
 
 .container {
+  max-width: 100%;
   margin: 0 auto;
   max-width: 1140px;
 }
@@ -48,6 +49,7 @@ li {
 }
 
 .header__text {
+  
   margin-left: 57px;
   position: relative;
   font-family: Work Sans;
@@ -82,6 +84,7 @@ li {
 
 
 .button__downloadNow {
+  
   margin-left: 143px;
   margin-top: -16px;
   position: absolute;
