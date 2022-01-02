@@ -1,1 +1,1 @@
-new Swiper ('swiper-wrapper');
+new Swiper ('.swiper__content');
